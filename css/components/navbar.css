@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .navbar-logo {
+  width: 4em;
+}
+
+.navbar .navbar-links {
+  display: flex;
+  gap: 2em;
+}
