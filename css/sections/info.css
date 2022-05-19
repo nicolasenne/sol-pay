@@ -22,7 +22,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-top: 20px;
 }
 
 .info-content i {
@@ -64,5 +63,9 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+  }
+
+  .info-content {
+    margin-top: 20px;
   }
 }
