@@ -8,6 +8,8 @@
   display: -webkit-flex;     /* NEW - Chrome */
   display: flex;    
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 50px;
 }
 
