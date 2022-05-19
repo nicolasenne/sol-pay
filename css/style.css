@@ -1,9 +1,14 @@
 /* Components Imports */
 @import url(components/banner.css);
+@import url(components/button.css);
 @import url(components/navbar.css);
 @import url(components/footer.css);
 
-/* Pages Imports */
+/* Sections Imports */
+@import url(sections/cadastro.css);
+@import url(sections/info.css);
+
+/* Base Imports */
 @import url(base/normalize.css);
 @import url(base/reset.css);
 
@@ -18,3 +23,10 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #66554d;
+ }

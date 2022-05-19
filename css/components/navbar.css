@@ -16,3 +16,13 @@
   display: flex;
   gap: 2em;
 }
+
+.navbar-links li a {
+  font-size: 12px;
+  font-weight: 600;
+  color: #66554d;
+}
+
+.navbar-links li a:hover {
+  color: #008037;
+}

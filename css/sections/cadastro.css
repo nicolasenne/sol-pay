@@ -1,0 +1,77 @@
+.cadastro {
+  background-color: #f2f2f2;
+  height: 50vh;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cadastro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cadastro-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cadastro-info p {
+  font-weight: 600;
+}
+
+.cadastro-info .p-1 {
+  color: #999999;
+}
+
+.cadastro-info .p-2 {
+  color: #808080;
+}
+
+.cadastro-info .p-3 {
+  color: #666666;
+}
+
+.cadastro-info .p-4 {
+  color: #4d4d4d;
+}
+
+.cadastro-img {
+  margin-top: 50px;
+  width: 50%;
+}
+
+.cadastro-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+input[type=text], input[type=tel], input[type=email], input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  padding: 15px 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  background-color: #008037;
+  border: 1px solid #008037;
+}
+
+input[type=submit]:hover {
+  color: #fff;
+  background-color: #003c1a;
+}
+

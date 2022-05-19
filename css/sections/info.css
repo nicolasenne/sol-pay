@@ -1,0 +1,39 @@
+.info {
+  background-color: #ffffff;
+  height: 50vh;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.info-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-content {
+  width: 300px;
+  border: 1px solid #cccccc;
+  padding: 30px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-content i {
+  font-size: 2.5em;
+  color: #008037;
+}
+
+.info-content h3 {
+  font-size: 1em;
+  font-weight: 700;
+  color: #66554d;
+}
+
+.info-content p {
+  font-size: 0.9em;
+  color: #808080;
+}

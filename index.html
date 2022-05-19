@@ -16,7 +16,7 @@
     <meta property="og:url" content="https://nicolasenne.co"/>
     <title>Sol Pay - Energia Renovável</title>
     <link rel="icon" href="assets/images/icon.svg">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="assets/images/icon.svg" type="image/x-icon" />
     <link rel="apple-touch-icon" href="assets/images/icon.svg" />
@@ -38,12 +38,65 @@
       </div>
     </nav>
     <!-- Main Banner -->
-    <div class="banner" style="background-image: url(images/main-banner.jpg);">
+    <section class="banner" style="background-image: url(images/main-banner.jpg);">
       <div class="container">
-        <h1>A melhor maneira de pagar pela sua energia renovável.</h1>
-        <a href="#">Faça seu cadastro</a>
+        <div class="banner-flex">
+          <h1>A melhor maneira de pagar pela sua energia renovável.</h1>
+          <a class="btn btn-main" href="#">Faça seu cadastro</a>
+        </div>
       </div>
-    </div>
+    </section >
+    <!-- Cadastro -->
+    <section class="cadastro">
+      <h2>Faça seu cadastro para pedir aprovação</h2>
+      <div class="container">
+        <div class="cadastro-grid">
+          <div class="cadastro-info">
+            <p class="p-1">Escolha pagar com a Sol Pay, de forma simples e ágil</p>
+            <p class="p-2">Parcele sua instalação em boletos, com taxas justas</p>
+            <p class="p-3">Parcelamentos em até 240 meses</p>
+            <p class="p-4">Aprovamos seu parcelamento de forma online em até 24h</p>
+            <img class="cadastro-img" src="images/paper-plane.png">
+          </div>
+          <div>
+            <form class="cadastro-form">
+              <input type="text" placeholder="Nome completo">
+              <input type="tel" placeholder="Telefone">
+              <input type="tel" placeholder="Celular">
+              <input type="email" placeholder="E-mail">
+              <input type="date" placeholder="Data de nascimento">
+              <input type="text" placeholder="CPF">
+              <input type="text" placeholder="CEP">
+              <input class="btn" type="submit" value="Enviar">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Info -->
+    <section class="info">
+      <h2>Por que utilizar energia Fotovoltaica?</h2>
+      <div class="container">
+        <div class="info-flex">
+          <div class="info-content">
+            <i class="fa-solid fa-lightbulb"></i>
+            <h3>Economia na conta de luz</h3>
+            <p>Reduza sua conta de energia elétrica em até 95% com um sistema eficiente com mais de 30 anos de vida útil.</p>
+          </div>
+          <div class="info-content">
+            <i class="fa-solid fa-dollar-sign"></i>
+            <h3>Valorização do imóvel</h3>
+            <p>A energia fotovoltaica é um diferencial sustentável e econômico para sua propriedade.</p>
+          </div>
+          <div class="info-content">
+            <i class="fa-solid fa-leaf"></i>
+            <h3>Redução do impacto ambiental</h3>
+            <p>A geração de energia elétrica a partir da energia solar não emite nenhum tipo de poluente com efeitos nocivos à saúde humana e ao meio ambiente.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
 
   </body>
 </html>

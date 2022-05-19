@@ -1,0 +1,19 @@
+.btn {
+  padding: 15px 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+}
+
+.btn-main {
+  color: #008037;
+  background-color: #fff;
+  border: 1px solid #008037;
+}
+
+.btn-main:hover {
+  color: #fff;
+  background-color: #008037;
+}

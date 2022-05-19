@@ -1,0 +1,21 @@
+.banner {
+  background-size: cover;
+  height: 50vh;
+  padding: 150px 0;
+}
+
+.banner-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.banner h1 {
+  color: #fff;
+  text-shadow: 2px 2px 3px rgba(42, 42, 42, 0.7) ;
+  font-weight: bold;
+  font-size: 4rem;
+  width: 50%;
+}
