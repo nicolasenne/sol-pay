@@ -1,0 +1,30 @@
+.footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  height: 5vh;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-content {
+  display: flex;
+  gap: 10px;
+  font-size: 1.1em;
+}
+
+.footer-content i {
+  font-size: 1.3em;
+}
+
+.footer-content p {
+  font-weight: 600;
+}

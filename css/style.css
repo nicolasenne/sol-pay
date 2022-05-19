@@ -5,8 +5,10 @@
 @import url(components/footer.css);
 
 /* Sections Imports */
+@import url(sections/about.css);
 @import url(sections/cadastro.css);
 @import url(sections/info.css);
+@import url(sections/passo.css);
 
 /* Base Imports */
 @import url(base/normalize.css);
