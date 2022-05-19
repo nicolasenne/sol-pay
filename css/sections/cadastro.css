@@ -96,7 +96,11 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 600px) {
   .cadastro {
-    height: 80vh;
+    height: 100%;
+  }
+
+  .cadastro h2 {
+    width: 90%;
   }
 
   .cadastro-grid {
