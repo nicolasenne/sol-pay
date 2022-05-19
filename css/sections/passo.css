@@ -47,3 +47,53 @@
 .passo-content p {
   font-size: 0.9em;
 }
+
+@media screen and (max-width: 992px)  {
+  .passo {
+    height: 170vh;
+  }
+
+  .passo-flex {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .passo-content {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .circle-icon {
+    background: #ffffff;
+    color: #008037;
+    width: 20px;
+    height: 20px;
+    line-height: 80%;
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .passo {
+    height: 170vh;
+  }
+
+  .passo-flex {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .passo-content {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .circle-icon {
+    background: #ffffff;
+    color: #008037;
+    width: 20px;
+    height: 20px;
+    line-height: 80%;
+    font-size: 1.5em;
+  }
+}

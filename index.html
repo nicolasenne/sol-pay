@@ -9,36 +9,36 @@
     <meta name="theme-color" content="#4B21CD" />
     <meta name="copyright" content="solpay 2022" />
     <title>Sol Pay - Energia Renovável</title>
-    <link rel="icon" href="images/sol-pay-logo.png">
+    <link rel="icon" href="images/sun-solid.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-      <div class="container">
-        <div class="navbar-flex">
-          <img class="navbar-logo" src="images/sol-pay-logo.png">
-          <ul class="navbar-links">
-            <li><a href="#home">Faça seu cadastro</a></li>
-            <li><a href="#news">Por que utilizar</a></li>
-            <li><a href="#contact">Como funciona</a></li>
+    <!-- Navigation bar -->
+    <header class="header">
+      <a href="#" class="logo"><img class="navbar-logo" src="images/sol-pay-logo.png"></a>
+      <input class="side-menu" type="checkbox" id="side-menu"/>
+      <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+      <nav class="nav">
+          <ul class="menu navbar-links">
+            <li><a href="#cadastro">Faça seu cadastro</a></li>
+            <li><a href="#info">Por que utilizar</a></li>
+            <li><a href="#passo">Como funciona</a></li>
             <li><a href="#about">Sobre nós</a></li>
           </ul>
-        </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
     <!-- Main Banner -->
-    <section class="banner" style="background-image: url(images/main-banner.jpg);">
+    <section class="banner" id="banner" style="background-image: url(images/main-banner.jpg);">
       <div class="container">
         <div class="banner-flex">
           <h1>A melhor maneira de pagar pela sua energia renovável.</h1>
-          <a class="btn btn-main" href="#">Faça seu cadastro</a>
+          <a class="btn btn-main" href="#cadastro">Faça seu cadastro</a>
         </div>
       </div>
     </section >
     <!-- Cadastro -->
-    <section class="cadastro">
+    <section class="cadastro" id="cadastro">
       <h2>Faça seu cadastro para pedir aprovação</h2>
       <div class="container">
         <div class="cadastro-grid">
@@ -65,7 +65,7 @@
       </div>
     </section>
     <!-- Info -->
-    <section class="info">
+    <section class="info" id="info">
       <h2>Por que utilizar energia Fotovoltaica?</h2>
       <div class="container">
         <div class="info-flex">
@@ -88,7 +88,7 @@
       </div>
     </section>
     <!-- Passo a passo -->
-    <section class="passo">
+    <section class="passo" id="passo">
       <h2>Como funciona</h2>
       <div class="container">
         <div class="passo-flex">
@@ -121,7 +121,7 @@
       </div>
     </section>
     <!-- Sobre nós -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <div class="about-flex">
           <h2>Sobre nós</h2>

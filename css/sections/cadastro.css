@@ -75,3 +75,40 @@ input[type=submit]:hover {
   background-color: #003c1a;
 }
 
+@media screen and (max-width: 992px)  {
+  .cadastro {
+    height: 80vh;
+  }
+
+  .cadastro-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+
+  .cadastro-info {
+    align-items: center;
+  }
+
+  .cadastro-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cadastro {
+    height: 80vh;
+  }
+
+  .cadastro-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+
+  .cadastro-info {
+    align-items: flex-start;
+  }
+
+  .cadastro-img {
+    display: none;
+  }
+}
