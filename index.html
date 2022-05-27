@@ -50,14 +50,14 @@
             <img class="cadastro-img" src="images/paper-plane.png">
           </div>
           <div>
-            <form class="cadastro-form">
-              <input type="text" placeholder="Nome completo">
-              <input type="tel" placeholder="Telefone">
-              <input type="tel" placeholder="Celular">
-              <input type="email" placeholder="E-mail">
-              <input type="date" placeholder="Data de nascimento">
-              <input type="text" placeholder="CPF">
-              <input type="text" placeholder="CEP">
+            <form class="cadastro-form" method="POST" action="https://script.google.com/macros/s/AKfycbzSp8AP0NKUmMy76_G9xYZjaOdEDwcwgVOoC1Y3wikhEWBFPFIh0_DTFugeTei-92nVMQ/exec">
+              <input name="Nome" type="text" placeholder="Nome Completo" required>
+              <input name="Telefone" type="tel" placeholder="Telefone">
+              <input name="Celular" type="tel" placeholder="Celular" required>
+              <input name="Email" type="email" placeholder="Email" required>
+              <input name="Data de Nascimento" type="date" placeholder="Data de Nascimento" required>
+              <input name="CPF" type="text" placeholder="CPF" required>
+              <input name="CEP" type="text" placeholder="CEP" required>
               <input class="btn" type="submit" value="Enviar">
             </form>
           </div>
@@ -126,6 +126,7 @@
         <div class="about-flex">
           <h2>Sobre nós</h2>
           <p>A Sol Pay é uma plataforma com a missão de melhorar e facilitar o pagamento para uso de energia fotovoltaica, com soluções de financiamento no boleto e taxas mais justas.</p>
+          <img class="about-logo" src="images/sol-pay-logo.png">
         </div>
       </div>
     </section>

@@ -9,7 +9,7 @@
 }
 
 .navbar-logo {
-  width: 4em;
+  height: 6em;
 }
 
 .navbar .navbar-links {
@@ -42,6 +42,7 @@
     position: sticky;
     top: 0;
     width: 100%;
+    
 }
 
 /* Nav menu */
@@ -133,6 +134,13 @@
 
 
 /* Responsiveness */
+@media (min-width: 900px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
 
 @media (min-width: 768px) {
     .nav{
