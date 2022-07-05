@@ -42,7 +42,6 @@
     position: sticky;
     top: 0;
     width: 100%;
-    
 }
 
 /* Nav menu */
@@ -68,6 +67,14 @@
     max-height: 0;
     transition: max-height .5s ease-out;
 }
+
+#whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 50px;
+  }
+  
 
 /* Menu Icon */
 
